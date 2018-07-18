@@ -29,12 +29,28 @@ public class MainApp {
 		obj.getMessage();
 		
 		context.stop();*/
-		ConfigurableApplicationContext context = new ClassPathXmlApplicationContext("Bean6.xml");
+		/*ConfigurableApplicationContext context = new ClassPathXmlApplicationContext("Bean6.xml");
 		
 		CustomEventPublisher cvPublisher = (CustomEventPublisher)context.getBean("customEventPublisher");
 		
 		cvPublisher.publish();
-		cvPublisher.publish2();
+		cvPublisher.publish2();*/
+		
+		/*ApplicationContext context = new ClassPathXmlApplicationContext("Bean7.xml");
+		
+		Student student = (Student) context.getBean("student");
+		
+		student.getName();
+		student.getAge();
+		student.printThrowException();*/
+		
+        ApplicationContext context = new ClassPathXmlApplicationContext("Bean8.xml");
+		
+		Student student = (Student) context.getBean("student");
+		
+		student.getName();
+		student.getAge();
+		student.printThrowException();
 		
 	}
 }
