@@ -25,7 +25,7 @@
 	<classpathentry kind="lib" path="D:/commons-logging-1.2-bin (1)/aspectj-1.9.1.jar"/>
 	<classpathentry kind="lib" path="D:/commons-logging-1.2-bin (1)/aspectjrt-1.9.1.jar"/>
 	<classpathentry kind="lib" path="D:/commons-logging-1.2-bin (1)/aspectjweaver-1.9.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/admin/Desktop/sqljdbc4.jar"/>
-	<classpathentry kind="lib" path="C:/Users/admin/Desktop/mysql-connector-java-5.1.38.jar"/>
+	<classpathentry kind="lib" path="D:/cyf/mysql-connector-java-5.1.38.jar"/>
+	<classpathentry kind="lib" path="D:/cyf/sqljdbc4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
